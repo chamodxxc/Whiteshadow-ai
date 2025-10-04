@@ -1,0 +1,16 @@
+{
+  "name": "WHITESHADOW AI Proxy",
+  "description": "A secure Gemini AI proxy server made by Chamod Nimsara (WhiteShadow).",
+  "repository": "https://github.com/chamodnimsara/whiteshadow-ai-proxy",
+  "env": {
+    "GEMINI_API_KEY": {
+      "description": "Enter your Google Gemini API key here",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
